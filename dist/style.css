@@ -1,0 +1,76 @@
+body {
+  background: url("https://cdn.wallpapersafari.com/83/23/IE90Ju.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  justify-text: center;
+}
+main {
+  font-family: sans-serif;
+  margin: 5% 25% 5% 25%;
+  padding-top:2%;
+  padding-bottom:2%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+#title {
+  font-family: "Tourney", cursive;
+  margin-bottom: 0px;
+}
+#description {
+  font-family: "Comfortaa", cursive;
+  margin-top: 10px;
+}
+.item1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
+}
+.item2 {
+  margin-top: 10px;
+}
+
+.container {
+  font-size: 18px;
+  display: grid;
+  text-align: left;
+  grid-template-columns: 20% 75%;
+  grid-gap: 2% 6%;
+  padding: 2% 6% 2% 6%;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  width: 100%;
+  padding:2%;
+  box-sizing: border-box;
+  font-family: "Comfortaa", cursive;
+}
+
+#submit {
+  font-size: 22px;
+  margin: 2% 6% 2% 6%;
+  padding-top:2%;
+  padding-bottom:2%;
+  width:88%;
+  font-family: "Raleway", sans-serif;
+}
+
+#submit:hover {
+  background-color:#efa273;
+  color:#ffffff;
+}
+.interests{
+  font-size: 18px;
+  margin: 2% 6% 2% 6%;
+  display: grid;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+
+.interests > label{
+  padding-top:2%;
+}
